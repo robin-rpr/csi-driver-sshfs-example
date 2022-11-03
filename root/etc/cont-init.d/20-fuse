@@ -1,0 +1,6 @@
+#!/command/with-contenv bash
+
+# Print version
+sshfs -V
+
+[[ -e /dev/fuse ]] && chown abc:abc /dev/fuse

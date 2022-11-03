@@ -1,0 +1,3 @@
+#!/command/with-contenv bash
+
+exec s6-setuidgid abc sshfs -f "${SSHFS_HOST}" "${SSHFS_MNT}" ${SSHFS_OPTS}
