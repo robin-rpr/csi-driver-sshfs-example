@@ -1,8 +1,8 @@
 **Status:** Experimental (only for development, expect crashes)
-<img height="100px" align="right" alt="DOCKER-SSHFS" src="https://raw.githubusercontent.com/robin-rpr/docker-sshfs/master/docker-sshfs.svg" title="docker-sshfs"/>
+<img height="151px" align="right" alt="DOCKER-SSHFS" src="https://raw.githubusercontent.com/robin-rpr/docker-sshfs/master/docker-sshfs.svg" title="docker-sshfs"/>
 
 
-# docker-sshfs
+# Docker SSHFS
 Mount SSHFS on the host with a container.
 
 Command executed in the container:
@@ -22,7 +22,7 @@ docker create --name=sshfs \
     --device=/dev/fuse \
     -v <config_path>:/config \
     -v <mnt_path>:/mnt:shared \
-    horjulf/sshfs
+    ghcr.io/robin-rpr/docker-sshfs:main
 ```
 
 ```bash
