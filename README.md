@@ -1,5 +1,5 @@
 **Status:** Experimental (only for development, expect crashes)
-<img height="100px" align="right" alt="DOCKER-SSHFS" src="https://raw.githubusercontent.com/robin-rpr/docker-sshfs/master/logo.svg" title="docker-sshfs"/>
+<img height="100px" align="right" alt="DOCKER-SSHFS" src="https://raw.githubusercontent.com/robin-rpr/docker-sshfs/master/docker-sshfs.svg" title="docker-sshfs"/>
 
 
 # docker-sshfs
