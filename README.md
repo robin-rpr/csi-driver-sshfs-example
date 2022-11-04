@@ -2,7 +2,7 @@
 <img height="171px" align="right" alt="DOCKER-SSHFS" src="https://raw.githubusercontent.com/robin-rpr/docker-sshfs/master/docker-sshfs.svg" title="docker-sshfs"/>
 
 
-# Docker SSHFS
+# Docker Mount SSHFS
 Mount SSHFS on the host with a container.
 
 Command executed in the container:
