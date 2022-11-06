@@ -1,5 +1,5 @@
 **Status:** Experimental (only for development, expect crashes)
-<img height="171px" align="right" alt="DOCKER-SSHFS" src="https://raw.githubusercontent.com/robin-rpr/docker-sshfs/master/docker-sshfs.svg" title="docker-sshfs"/>
+<img height="171px" align="right" alt="docker-mount-sshfs" src="https://raw.githubusercontent.com/robin-rpr/docker-sshfs/master/docker-mount-sshfs.svg" title="docker-sshfs"/>
 
 
 # Docker Mount SSHFS
@@ -22,7 +22,7 @@ docker create --name=sshfs \
     --device=/dev/fuse \
     -v <config_path>:/config \
     -v <mnt_path>:/mnt:shared \
-    ghcr.io/robin-rpr/docker-sshfs:main
+    ghcr.io/robin-rpr/docker-mount-sshfs:main
 ```
 
 ```bash
