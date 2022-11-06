@@ -22,7 +22,7 @@ docker create --name=sshfs \
     --device=/dev/fuse \
     -v <config_path>:/config \
     -v <mnt_path>:/mnt:shared \
-    ghcr.io/robin-rpr/docker-mount-sshfs:main
+    ghcr.io/robin-rpr/docker-mount-sshfs:1.0.1
 ```
 
 ```bash
